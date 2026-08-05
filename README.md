@@ -1,9 +1,11 @@
-# 🚀 Backend API Development
+# 🚀 Backend API Development with FastAPI
 
-This repository documents my journey of learning **Backend API Development** using **Python** and **FastAPI**. It includes hands-on practice, REST API development, CRUD operations, database integration, authentication, and other essential backend development concepts.
+Welcome to my **Backend API Development** repository. This repository serves as a comprehensive collection of my learning journey with **Python** and **FastAPI**, focusing on the design and development of modern, scalable, and high-performance RESTful APIs.
 
-The goal of this repository is to build a strong foundation in modern backend development by working on practical examples and real-world projects while following industry best practices.
+It includes hands-on implementations of backend development concepts such as API architecture, CRUD operations, request validation, database integration, authentication, exception handling, and deployment, following clean code principles and industry best practices.
+
+The objective of this repository is to strengthen my backend development expertise through practical implementations, real-world examples, and continuous learning.
 
 ## 📌 Note
 
-This repository will be updated regularly with new code, examples, notes, and projects as I continue my learning journey.
+This repository is actively maintained and will be updated regularly with new concepts, practice exercises, projects, and improvements as I continue expanding my knowledge of backend development.
