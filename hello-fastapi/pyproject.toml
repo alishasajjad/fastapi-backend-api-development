@@ -1,0 +1,24 @@
+[project]
+name = "todos"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "alishasajjad",email = "dev.alishasajjad@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi (>=0.141.1,<0.142.0)",
+    "sqlmodel (>=0.0.39,<0.0.40)",
+    "uvicorn (>=0.52.1,<0.53.0)"
+]
+
+[tool.poetry]
+packages = [{include = "todos", from = "src"}]
+
+[tool.poetry.scripts]
+dev = "todos.main:start"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
