@@ -23,7 +23,7 @@ def getTodosPost():
 
 
 def start():
-    uvicorn.run("todos.main:app", host="127.0.0.1", port=8080, reload=True, log_level="info")
+    uvicorn.run("todos.main:app", host="127.0.0.1", port=8080, reload=True)
 # localhost ip : 0.0.0.0
 
 @app.get("/")
